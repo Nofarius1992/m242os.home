@@ -7,7 +7,7 @@
                 <arguments>
                     <argument name="path" xsi:type="string">todo</argument>
                     <argument name="label" xsi:type="string" translate="true">My TODO List</argument>
-                    <argument name="sortOrder" xsi:type="number">220</argument>
+                    <argument name="sortOrder" xsi:type="number">250</argument>
                 </arguments>
             </block>
         </referenceBlock>
