@@ -3,7 +3,10 @@
         class="task-input-field"
         id="todo-task-input"
         name="task"
-        data-bind="value: newTaskLabel"
+        data-bind="
+            value: newTaskLabel,
+            event:{ 'keyup': checkKey }
+        "
         placeholder="Add a new task..."
     >
     <div class="actions-toolbar">
@@ -11,7 +14,7 @@
             <button type="button"
                 title="Add Task"
                 class="action save primary"
-                id="add=new-task-button"
+                id="add-new-task-button"
                 data-bind="click: addTask"
             ><span>Add Task</span></button>
         </div>
