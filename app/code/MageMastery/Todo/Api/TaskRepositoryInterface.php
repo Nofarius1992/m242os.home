@@ -2,6 +2,7 @@
 
 namespace MageMastery\Todo\Api;
 
+use MageMastery\Todo\Api\Data\TaskSearchResultInterface;
 use Magento\Framework\Api\SearchCriteriaInterface;
 
 /**
